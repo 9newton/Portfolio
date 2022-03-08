@@ -5,8 +5,8 @@ export const ProjectList = [
     title: "Portfolio",
     description: "Codewell challenge, Spense is a landing page for writers.",
     tech_stack: "ReactJS, HTML, CSS, JavaScript",
-    github_url: "https://your_project_github_link",
-    demo_url: "https://your_project_demo_link",
+    github_url: "https://github.com/9newton/Portfolio",
+    demo_url: "https://pakornkl.web.app/",
   },
   {
     img: "./images/project_2.jpg",
