@@ -13,14 +13,14 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(ScrollLink)`
-  color: rgb(119, 119, 121);
+  color: #f4f3ef;
   display: flex;
   font-size: 1.2rem;
   align-items: center;
   height: 100%;
   cursor: pointer;
   &:hover {
-    color: #ffffff;
+    color: #ffcb00;
   }
 `;
 export const Logo = styled(LinkRouter)`
@@ -32,7 +32,7 @@ export const Logo = styled(LinkRouter)`
 
 export const Bars = styled(FaBars)`
   display: none;
-  color: #fff;
+  color: #f4f3ef;
   font-size: 1.8rem;
   cursor: pointer;
   @media screen and (max-width: 768px) {

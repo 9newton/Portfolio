@@ -9,8 +9,22 @@ const Social = styled.div`
   left: 1.5rem;
   transform: translateY(-50%);
 
+  
+  .bg{
+    background-color: #161b27;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #161b27;
+    border-radius: 20px;
+  }
+
   ul {
     display: block;
+  }
+
+ .item{
+    margin-top: 0.5rem;
   }
 
   .item + .item {
@@ -19,10 +33,10 @@ const Social = styled.div`
 
   a {
     font-size: 2rem;
-    color: #fff;
+    color: #f4f3ef;
     transition: 0.2s ease-in;
     &:hover {
-      color: #2BFF88;
+      color: #ffcb00;
     }
   }
 
@@ -33,35 +47,37 @@ const Social = styled.div`
 function FixSocialIcon() {
   return (
     <Social>
-      <ul>
-        <li className="item">
-          <a
-            href="https://www.facebook.com/pakorn.khunleang/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaFacebook />
-          </a>
-        </li>
-        <li className="item">
-          <a
-            href="https://github.com/9newton"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaGithub />
-          </a>
-        </li>
-        <li className="item">
-          <a
-            href="https://www.instagram.com/newtonpakorn/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaInstagram />
-          </a>
-        </li>
-      </ul>
+      <div className="bg">
+        <ul>
+          <li className="item">
+            <a
+              href="https://www.facebook.com/pakorn.khunleang/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook />
+            </a>
+          </li>
+          <li className="item">
+            <a
+              href="https://github.com/9newton"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub />
+            </a>
+          </li>
+          <li className="item">
+            <a
+              href="https://www.instagram.com/pakornkl/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram />
+            </a>
+          </li>
+        </ul>
+      </div>
     </Social>
   );
 }

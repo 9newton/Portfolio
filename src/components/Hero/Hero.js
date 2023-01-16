@@ -23,27 +23,23 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <h1>Hello, I'm</h1> 
+            <h1>Hello, I'm</h1>
             <h2>Pakorn Khunleang</h2>
-            <h5>Full Stack Developer</h5>
+            <h5>Frontend Developer</h5>
             <p>
-              I love programming and design. I believe that if we do what we love, we will do it well.
+              I’m a Front-end developer who love to learn new things and share it with others,
+              I usually learning a new things and improve my development and design skill to
+              makes me able to create great products.
             </p>
           </HeroLeft>
           <HeroRight>
-            <Image
-              src="./images/profile.JPG"
-              alt="profile"
-            />
+            <Image src="./images/profile.JPG" alt="profile" />
           </HeroRight>
         </HeroWrapper>
         <ScrollDown to="projects">
           <ScrollLink>
             Scroll down
-            <img
-              src="./images/scroll-down.png"
-              alt="scroll-down"
-            />
+            <img src="./images/scroll-down.png" alt="scroll-down" />
           </ScrollLink>
         </ScrollDown>
       </HeroContainer>

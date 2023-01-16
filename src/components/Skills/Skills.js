@@ -1,5 +1,5 @@
 import React from "react";
-import { Skill_Nomal, Skill_Beginner, Skill_Other } from "../../data/ProjectData";
+import { Skill_Nomal, Skill_Other } from "../../data/ProjectData";
 import {
   Technologies,
   Tech,
@@ -11,10 +11,10 @@ function Skills() {
   return (
     <ContactWrapper id="skills">
       <div className="Container">
-        <div className="SectionTitle">My Skills</div>
-        <div className="BigCard">
+        <div className="SectionTitle">MY SKILLS</div>
+        <div className="BigCardSkills">
           <div className="SkillBio tagline2">
-            <strong>PROGRAMING</strong>
+            <strong>Programing</strong>
           </div>
           <Technologies>
             {Skill_Nomal.map((stack, index) => (
@@ -25,18 +25,7 @@ function Skills() {
             ))}
           </Technologies>
           <div className="SkillBio tagline2">
-              <strong>Beginner</strong>
-          </div>
-          <Technologies>
-            {Skill_Beginner.map((stack, index) => (
-              <Tech key={index} className="tech">
-                <TechImg src={stack.img} alt={stack.name} />
-                <TechName>{stack.name}</TechName>
-              </Tech>
-            ))}
-          </Technologies>
-          <div className="SkillBio tagline2">
-              <strong>Tools</strong>
+            <strong>Tools</strong>
           </div>
           <Technologies>
             {Skill_Other.map((stack, index) => (

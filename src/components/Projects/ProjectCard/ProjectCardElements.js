@@ -15,12 +15,11 @@ export const Card = styled.div`
 `;
 
 export const CardLeft = styled.div`
-  background: #070707;
-  border-radius: 5px;
-  padding: 5px;
+  box-shadow: 0px 0px 20px #cccccc;
+  border-radius: 20px;
   justify-self: center;
   img {
-    border-radius: 3px;
+    border-radius: 20px;
     height: auto;
   }
 `;

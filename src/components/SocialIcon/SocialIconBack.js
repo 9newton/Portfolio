@@ -18,7 +18,7 @@ export const SocialDiv = styled.div`
     color: #fff;
     transition: 0.2s ease-in;
     &:hover {
-      color: #2BFF88;
+      color: #ffcb00;
     }
   }
 
@@ -55,7 +55,7 @@ function SocialIconBack() {
         </li>
         <li className="item">
           <a
-            href="https://www.instagram.com/newtonpakorn/"
+            href="https://www.instagram.com/pakornkl/"
             target="_blank"
             rel="noopener noreferrer"
           >

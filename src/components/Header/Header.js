@@ -12,17 +12,17 @@ const Header = ({ toggle }) => {
           />
         </Logo>
         <NavMenu>
-          <NavLink className="menu-item" to="projects"exct smooth={true}>
-            Projects
+          <NavLink className="menu-item" to="projects" exct smooth={true}>
+            PROJECTS
           </NavLink>
           <NavLink className="menu-item" to="certificate" smooth={true}>
-            Certificate
+            CERTIFICATE
           </NavLink>
           <NavLink className="menu-item" to="skills" smooth={true}>
-            Skills
+            SKILLS
           </NavLink>
           <NavLink className="menu-item" to="contact" smooth={true}>
-            Contact
+            CONTACT
           </NavLink>
         </NavMenu>
         <NavBtn>

@@ -11,13 +11,19 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*background: #fafaff;*/
-  background-image: linear-gradient( 65.9deg,  #55e4e0 5.5%, #4b44e0bd 54.2%, #40c6ee 55.2%, #b124e0 98.4% );
+  background: #f4f3ef;
+  /* background-image: linear-gradient(
+    65.9deg,
+    #55e4e0 5.5%,
+    #4b44e0bd 54.2%,
+    #40c6ee 55.2%,
+    #b124e0 98.4%
+  ); */
   font-weight: 400;
 }
 
 main {
-  background: #070707;
+  background: #161b27;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -58,11 +64,38 @@ h6 {
   font-weight: normal;
 }
 
+h4 {
+  color: #161b27;
+}
+
 img,
 video {
   display: block;
   max-width: 100%;
 }
+
+.btn-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  height: 50px;
+  width: 50px;
+  background-color: #f4f3ef;
+  border-radius: 20px;
+  border: 1px solid #92928f;
+  color: #161b27;
+  font-size: 30px;
+  cursor: pointer;
+  padding-top: 5px;
+  z-index: 2;
+}
+
+.btn-to-top:hover {
+  background-color: #161b27;
+  color: #ffcb00;
+  transition: 0.2s;
+}
+
 .btn-nav {
   padding: 10px 1rem;
   border-radius: 5px;
@@ -84,7 +117,7 @@ video {
   margin-top: 4rem;
 }
 
-.DownloadCont{
+.DownloadCont {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,24 +125,33 @@ video {
   text-align: center;
   flex: 1;
   padding-bottom: 5rem;
-  color: #fff;
   font-size: 40px;
 }
 
 .NavBtn {
-  background: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
-  box-shadow: #4e4e4e 0px 0px 10px;
-  color: #000000;
+  /* background: linear-gradient(45deg, #fa8bff 0%, #2bd2ff 52%, #2bff88 90%); */
+  background-color: #f4f3ef;
+  border-radius: 10px;
+  border-width: 2px;
+  /* box-shadow: #4e4e4e 0px 0px 10px; */
+  color: #161b27;
 }
 
 .NavBtn:hover {
-  background: linear-gradient(45deg, #2BFF88 0%, #2BD2FF 52%, #FA8BFF 90%);
-  color: #070707;
+  /* background: linear-gradient(45deg, #2bff88 0%, #2bd2ff 52%, #fa8bff 90%); */
+  background-color: #ffcb00;
+  color: #161b27;
 }
 
 .BackBtn {
-  background: #fff;
-  color: #000000;
+  background: #f4f3ef;
+  border-radius: 10px;
+  color: #161b27;
+}
+
+.BackBtn:hover {
+  background: #ffcb00;
+  color: #161b27;
 }
 
 .btn {
@@ -123,18 +165,25 @@ video {
 }
 
 .PrimaryBtn {
-  background: #070707;
-  color: #ffffff;
+  background: #161b27;
+  border-color: #161b27;
+  color: #f4f3ef;
 }
 
 .PrimaryBtn:hover {
-  background: #fff;
-  color: #070707;
+  background: #ffcb00;
+  color: #161b27;
+}
+
+.SecondarBtn {
+  background: transparent;
+  border-color: #161b27;
+  color: #161b27;
 }
 
 .SecondarBtn:hover {
-  background: #070707;
-  color: #fff;
+  background: #161b27;
+  color: #f4f3ef;
 }
 
 .btn2 {
@@ -158,10 +207,22 @@ video {
   display: flex;
   flex-direction: column;
   background: #fff;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  box-shadow: #e7e7e7 0px 0px 20px;
+}
+.BigCardSkills {
+  padding-top: 3rem;
+  padding-bottom: 7rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: #e7e7e7 0px 0px 20px;
 }
 
 .SkillBio,
+.SkillBioCer,
 .tagline2 {
   text-align: center;
   max-width: 650px;
@@ -180,7 +241,7 @@ video {
 
 .SectionTitle {
   font-size: 28px;
-  color: #070707;
+  color: #161b27;
   font-weight: 700;
   margin-bottom: 3.5rem;
 }
@@ -210,5 +271,21 @@ video {
 @media (min-width: 1200px) {
   .Container {
     max-width: 1000px;
+  }
+}
+
+@media (max-width: 677px) {
+  .BigCard {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  .BigCardSkills {
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+  .SkillBioCer {
+    font-size: 15px;
   }
 }

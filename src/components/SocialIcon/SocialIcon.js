@@ -14,10 +14,10 @@ export const SocialDiv = styled.div`
 
   a {
     font-size: 2.5rem;
-    color: #070707;
+    color: #161b27;
     transition: 0.2s ease-in;
     &:hover {
-      color: #fff;
+      color: #ffcb00;
     }
   }
 
@@ -54,7 +54,7 @@ function SocialIcon() {
         </li>
         <li className="item">
           <a
-            href="https://www.instagram.com/newtonpakorn/"
+            href="https://www.instagram.com/pakornkl/"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -11,9 +11,9 @@ function Certificate() {
   return (
     <ContactWrapper id="certificate">
       <div className="Container">
-        <div className="SectionTitle">Certificate</div>
+        <div className="SectionTitle">CERTIFICATE</div>
         <div className="BigCard">
-          <div className="SkillBio">
+          <div className="SkillBioCer">
             <strong>🏆Essential SQL For Everyone🏆</strong>
           </div>
           <Cert>

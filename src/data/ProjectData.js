@@ -15,7 +15,7 @@ export const ProjectList = [
       "Websites selling second-hand sneakers can apply for membership.",
     tech_stack: "HTML, CSS, PHP, JavaScript, Bootstrap",
     github_url: "https://github.com/9newton/NT-SHOP",
-    demo_url: "https://newton-shop.000webhostapp.com/index.html",
+    demo_url: "https://ntshop01.000webhostapp.com/index.php",
   },
   {
     img: "./images/project_3.jpg",
@@ -74,7 +74,29 @@ export const Skill_Nomal = [
     name: "PHP",
   },
 ];
-export const Skill_Beginner = [
+// export const Skill_Beginner = [
+//   {
+//     img: "./images/skill/git.png",
+//     name: "Git",
+//   },
+//   {
+//     img: "./images/skill/figma.png",
+//     name: "Figma",
+//   },
+// ];
+export const Skill_Other = [
+  {
+    img: "./images/skill/vscode.png",
+    name: "VS Code",
+  },
+  {
+    img: "./images/skill/mongodb.png",
+    name: "MongoDB",
+  },
+  {
+    img: "./images/skill/postman.png",
+    name: "Postman",
+  },
   {
     img: "./images/skill/git.png",
     name: "Git",
@@ -83,8 +105,6 @@ export const Skill_Beginner = [
     img: "./images/skill/figma.png",
     name: "Figma",
   },
-];
-export const Skill_Other = [
   {
     img: "./images/skill/photoshop.png",
     name: "Photoshop",

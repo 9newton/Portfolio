@@ -44,30 +44,30 @@ export const HeroLeft = styled.div`
 
   h1 {
     font-size: 2rem;
-    color: #f6f6f6;
+    color: #f4f3ef;
     opacity: 0.98;
     font-weight: 400;
   }
 
   h2 {
-    font-size: 3.2rem;
-    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: 0.98;
-    font-weight: 400;
+    font-size: 3rem;
+    // color: #ffcb00;
+    color: #f4f3ef;
+    font-weight: bold;
   }
 
   h5 {
     font-size: 1.6rem;
-    color: rgb(119, 119, 121);
+    color: #ffcb00;
+    // color: #f4f3ef;
+    // color: rgb(119, 119, 121);
     margin-bottom: 1rem;
-    font-weight: 400;
+    font-weight: 200;
   }
 
   p {
     font-size: 17px;
-    color: #f6f6f6;
+    color: #f4f3ef;
     opacity: 0.85;
   }
 
@@ -87,12 +87,12 @@ export const HeroRight = styled.div`
 export const Image = styled.img`
   height: 300px;
   width: auto;
-  border-radius: 5px;
-  background: linear-gradient(#222, #222), 
-  linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  border-radius: 30px;
+  background-color: #f4f3ef;
   background-origin: padding-box, border-box;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   border: 5px solid transparent;
+  // box-shadow: 10px 10px #ffcb00;
 `;
 
 const ScrollAnimation = keyframes`
